@@ -1,4 +1,10 @@
+var express = require("express");
+var router = express.Router();
 
+const credential = {
+    email: "gitfit33@gmail.com",
+    password: "33admin33"
+}
 
 // login user
 router.post('login', (req, res) => {
@@ -10,4 +16,11 @@ router.post('login', (req, res) => {
     }
 });
 
-
+// route for dashboard
+router.get('dashboard', (req, res) => {
+    if (req.session.user) {
+        res.render('dashboard', { user: req.body.session })
+    } else {
+        res.send("Unauthorize User")
+    }
+})
