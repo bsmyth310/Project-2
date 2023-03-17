@@ -21,7 +21,7 @@ This app is used for to track your daily fitness activities. When the user click
 -Express-handlebars package to use Handlebars.js for your Views.
 -Mysql2 and Sequelize packages were used to connect to a MySQL database for your -Models, and create an Express.js API for your Controllers.
 -Dotenv package used to use environment variables.
--Bcrypt package was used to hash passwords.
+
 
 
 ## Usage 
@@ -50,6 +50,10 @@ Use insomnia Core to test GET and POST routes for this back end application.
 
 ## Questions
 
-Reach me for additional questions at: 
+Reach out for additional questions 
 
 ## Links
+
+Deployed link: 
+
+GitHub repo link: https://github.com/bsmyth310/Project-2
