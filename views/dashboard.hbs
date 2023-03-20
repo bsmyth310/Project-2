@@ -37,10 +37,10 @@
             <div class="row pb-4">
                 <div class="col-md-6 col-sm-12">
                     <div class="col-12 workout-col m-1">
-                        <h2 class="text-center workout-heading">Workouts to Crush</h2>
+                        <h2 class="text-center workout-heading">Workouts To Do</h2>
                         <ul class="workouts">
                             {{#each workouts}}
-                            {{#unless crushed}}
+                            {{#unless completed}}
                             {{> workouts/workout-block }}
                             {{/unless}}
                             {{/each}}
@@ -49,10 +49,10 @@
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="col-12 workout-col m-1">
-                        <h2 class="text-center workout-heading">Workouts Crushed</h2>
+                        <h2 class="text-center workout-heading">Workouts Completed</h2>
                         <ul class="workouts">
                             {{#each workouts}}
-                            {{#if crushed}}
+                            {{#if completed}}
                             {{> workouts/workout-block }}
                             {{/if}}
                             {{/each}}

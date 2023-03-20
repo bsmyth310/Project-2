@@ -23,13 +23,8 @@ const sess = {
 };
 app.use(session(sess));
 app.set('view engine', 'hbs');
-app.engine('hbs', exphbs({
-    extname: 'hbs',
-    defaultLayout: 'home',
-    layoutsDir: __dirname + '/views/layouts',
-    partialDir: __dirname + '/views/partial',
-    //cardioDir: __dirname + '/views/cardio'
-}))
+
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/public'));
