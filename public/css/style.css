@@ -1,0 +1,199 @@
+.background {
+    background-image: url(https://studio-mcgee.com/app/uploads/2022/05/studiomcgee_McGeeHome_Basement_032_web-1-scaled.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p{
+    color: white;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h5 {
+    color: white;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.login {
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    box-shadow: 6px 8px black;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.signup {
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    box-shadow: 6px 8px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+img {
+    height: 750px;
+    width: 800px;
+}
+
+.carousel-caption {
+    background-color: grey;
+}
+
+#title {
+    font-size: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 25px;
+    float: 50%;
+}
+
+nav {
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkslategrey;
+}
+
+.carousel-caption {
+    background-color: lightgrey;
+}
+
+.placeholder {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    transition: all 3s;
+    font-size: 1.5rem;
+    color: lighten;
+}
+
+input {
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    box-shadow: 4px 6px black;
+}
+
+.form-input {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 500px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    col
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+#submit {
+    background-color: white;
+    width: 220px;
+}
+
+.btn {
+    text-decoration: none;
+    border: none;
+    padding: 12px 40px;
+    font-size: 25px;
+    background-color: white;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+}
+
+.submit:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.btn:hover,
+.btn:active {
+    letter-spacing: 5px;
+}
+
+.btn:after,
+.btn:before {
+    backface-visibility: hidden;
+    border: 1px solid rgba(#fff, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+
+.btn:hover:after,
+.btn:hover:before {
+    backface-visibility: hidden;
+    border-color: #fff;
+    transition: width 350ms ease-in-out;
+    width: 70%;
+}
+
+.btn:hover:before {
+    bottom: auto;
+    top: 0;
+    width: 70%;
+}
+
+#link {
+    letter-spacing: 0;
+    color: white;
+    margin-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#link:hover,
+#link:active {
+    letter-spacing: 3px;
+}
+
+#link:after,
+#link:before {
+    backface-visibility: hidden;
+    border: 1px solid rgba(#fff, 0);
+    bottom: 0px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 200ms ease-in-out;
+    width: 0;
+}
+
+#link:hover:after,
+#link:hover:before {
+    backface-visibility: hidden;
+    border-color: #fff;
+    transition: width 400ms ease-in-out;
+}
+
+#link:hover:before {
+    bottom: auto;
+    top: 0;
+}
