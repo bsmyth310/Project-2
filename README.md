@@ -54,6 +54,6 @@ Reach out for additional questions
 
 ## Links
 
-Deployed link: 
+Deployed link: https://gitfit.herokuapp.com/login
 
 GitHub repo link: https://github.com/bsmyth310/Project-2
