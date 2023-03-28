@@ -57,3 +57,5 @@ Reach out for additional questions
 Deployed link: https://gitfit.herokuapp.com/login
 
 GitHub repo link: https://github.com/bsmyth310/Project-2
+
+Presentation link: https://docs.google.com/presentation/d/1rlx8qcv_9NL2MUY_UWoAAXI2F-qQ33JTLTTyV5Vknvw/edit#slide=id.g21e7ab216c5_0_147
